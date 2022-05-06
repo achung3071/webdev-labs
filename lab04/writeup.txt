@@ -1,0 +1,15 @@
+What is the value of SQLAlchemy?
+
+As an ORM, SQLAlchemy makes communication with relational databases easier by mapping database entities / tables
+to Python objects that can be directly accessed in a Python program. Not only that, but it is database agnostic,
+so it provides a uniform interface that can interact with various kinds of relational databases
+
+What is a model?
+
+A model is the structure (in this assignment, a Python class) which manages the data within a specific table of
+the database. It accepts user input (like a query) and returns data based on the input.
+
+What is a view?
+
+A view is the interface that users interact with; in the context of this project, it is the logic behind the
+REST API endpoints that users make requests to.
